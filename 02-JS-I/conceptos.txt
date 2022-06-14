@@ -1,0 +1,18 @@
+1.
+
+Variables: Una variable es un contenedor que almacena datos adentro.
+	Se puede comparar con una caja en la que guardo cosas. Cuando necesito guardar, por ejemplo, un par de zapatillas, lo meto dentro de una caja en la que escribo la palabra "zapatillas" (la nombro para saber lo que hay adentro). Cuando necesito usar las 		zapatillas, lo que hago es buscar la caja que dice "zapatillas" y la abro.
+	Las variables pueden tener distintos tipos de datos, asi como una caja puede contener distintos tipos de cosas.
+
+
+Strings: Son un tipo de dato utilizado en JS. Los strings son texto y se los diferencia de los demás porque se escriben entre comillas. No solo son letras, sino que pueden ser también números, siempre y cuando estén entre comillas. No es lo mismo escribir 1 (es un número) 	que "1" (es un string).
+
+Funciones: Las funciones son objetos que nos sirven para hacer algo (realizan una acción) con nuestro código. Tienen instrucciones para hacer algo específico dentro del programa. A las funciones hay que ponerles un nombre, que preferentemente describa lo que va a 			hacer, y las instrucciones de lo que tiene que hacer cuando se ejecuta. Estas instrucciones se escriben entre corchetes. 
+	También pueden agregárseles argumentos entre paréntesis.
+	Los argumentos son variables que se usan dentro de la función, y a los que se les da valor cuando se ejecuta esa función.
+	La forma de sacar de la función el resultado de lo que hizo, es usando la declaración return. Return es "devolver" en inglés, y lo que hace en este caso es devolver un resultado para poder usarlo afuera de esa función. Es como publicar el resultado de la lotería. Si 	después de jugar no se publican los números que salieron, nadie puede saber si ganó o no, porque nadie puede ver los resultados.
+
+Declaraciones IF: Las declaraciones IF nos permiten ver si se cumplen ciertas cosas para que otras sucedan. Si se cumplen, sucede algo. Si no se cumplen, sucede otra cosa. Una comparación sería ver cuando mide un chico para saber si puede o no subirse a 			un juego en un parque de diversiones. El juego solo se permite para gente de más de un metro y medio. Entonces el encargado mide al chico. Si éste mide más de 1,50, puede subir. Si no, tiene que salir de la fila.
+	Esto controla el flujo del programa. O sea, que camino sigue.
+
+Booleanos: Los booleanos son un tipo de datos que JS usa, y solo tienen dos opciones. Pueden ser verdaderos o falsos (0 o 1). Un ejemplo de una variable con datos booleanos es:  var entendiLaLeccion = true;
