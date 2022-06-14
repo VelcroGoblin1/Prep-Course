@@ -103,7 +103,7 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  x % y;
+  return x % y;
 }
 
 function esPar(num) {
@@ -197,7 +197,7 @@ function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  "Hola " + nombre + "!";
+  return "Hola " + nombre + "!";
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
@@ -217,7 +217,7 @@ function retornarPerimetro(lado){
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
-(base * altura) / 2;
+return (base * altura) / 2;
 }
 
 
@@ -225,7 +225,7 @@ function deEuroAdolar(euro){
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  (euro * 1.20);
+ return (euro * 1.20);
 }
 
 
@@ -236,9 +236,9 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
   if((letra == "a" || "e" || "i" || "o" || "u") && (letra.length < 2)) {
-    console.log ("Es vocal");
+    return "Es vocal";
   } else {
-    console.log ("Dato incorrecto");
+    return "Dato incorrecto";
   }
 }
 
