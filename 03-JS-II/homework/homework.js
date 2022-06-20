@@ -79,7 +79,7 @@ switch (color) {
     case "orange":
     return "This is orange";
     break;
-    case default:
+    default:
       return "Color not found";
       break;
 }
