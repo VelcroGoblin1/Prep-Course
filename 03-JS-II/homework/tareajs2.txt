@@ -1,0 +1,12 @@
+FOR: "for" hace algo en bucle (que se repite una y otra vez) hasta que  se cumple cierta regla o sucede algo que esperamos. El "for" 	necesita 3 cosas para funcionar: una variable, un condicional sobre esa variable (dice que condicion se tiene que cumplir 	para que el "for" siga su bucle), y un cambio sobre la variable declarada.
+	Un ejemplo en la vida real sería pedirle a alguien que arme un paquete de 10 lápices, agregando de a uno. La persona 	pone un lápiz en el paquete, luego se fija si tiene menos de 10, y si es asi, agrega otro. Después de este paso, vuelve a 	hacer lo mismo hasta tener 10 lápices en el paquete. En ese momento se cumple la condición y frena.
+
+
+&&: Es un operador lógico que significa "Y". Expresa que dos o mas cosas tienen que cumplirse si o si para que algo sea verdadero. 	Un ejemplo aplicado a la vida sería decir: "quiero comer algo dulce Y que no engorde". Entonces cuando agarramos algo 	para comer nos fijamos. Si es dulce pero engorda, lo dejamos de lado porque no se cumplen las dos condiciones. Si no 	engorda, pero es salado, también lo dejamos de lado. Solo lo comeremos si es dulce Y no engorda.
+
+
+||: Otro operador lógico. Este significa "O", y se fija que una de varias condiciones se cumplan para que algo sea verdadero. Un 	ejemplo sería decir "quiero dibujar con marcadores o crayones". Si me dan marcadores dibujo, ya que una de las dos 	cosas que pedía se cumplió. Si me dan crayones también. Sin embargo, si me dan lápices no dibujo porque yo quería otros 	materiales.
+
+
+!: Este operador significa "NO", y expresa lo contrario de lo que se dice. Un ejemplo sería decir: Si NO soy bajo, es más fácil jugar al basket. Ese "NO" toma la palabra bajo como la frase "SI SOY ALTO" (que es lo contrario a bajo) para evaluar si le es fácil jugar al basket.
+ 
