@@ -248,12 +248,13 @@ function breakStatement(numero) {
   //Pista: usá el statement 'break'
   // Tu código:
   var numerosIterados = [];
+  numerosIterados.push(numero);
   for (var i = 0; i < 10; i++) {
     if (numero === i) {
       return "Se interrumpió la ejecución";
       break;
     }
-      numerosIterados.push(numero[i]);
+      numerosIterados.push(numero[i] + 2);
   }
 }
 
