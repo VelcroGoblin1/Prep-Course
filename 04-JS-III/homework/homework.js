@@ -255,6 +255,7 @@ function breakStatement(numero) {
     }
       numerosIterados.push(numero[i] + 2);
   }
+  return numerosIterados;
 }
 
 
