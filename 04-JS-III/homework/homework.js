@@ -100,7 +100,7 @@ function promedioResultadosTest(resultadosTest) {
   // Tu código:
   var promedioFinal = 0;
 
-  for ( var i = 0; i < resultadosTest.length < i++) {
+  for ( var i = 0; i < resultadosTest.length; i++) {
     promedioFinal = promedioFinal + resultadosTest[i];
   }
 
