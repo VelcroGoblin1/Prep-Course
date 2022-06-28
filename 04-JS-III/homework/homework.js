@@ -267,12 +267,15 @@ function continueStatement(numero) {
   //Pista: usá el statement 'continue'
   // Tu código:
   var numerosIterados = [];
+
   for (var i = 0; i < 10; i++) {
     if (i === 5) {
       continue;
     }
-      numerosIterados.push(numero[i]);
+      numerosIterados.push(numero);
+      numero = numero + 2;
   }
+  return numerosIterados;
 }
 
 
