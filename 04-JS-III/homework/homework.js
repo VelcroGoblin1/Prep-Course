@@ -148,7 +148,7 @@ function cuentoElementos(arreglo){
   //Escribe tu código aquí
   var cuantos = 0;
 
-  for (var i = 0; i < arreglo.lenght; i++) {
+  for (var i = 0; i < arreglo.length; i++) {
     if (arreglo[i] > 18) {
       cuantos++;
     }
