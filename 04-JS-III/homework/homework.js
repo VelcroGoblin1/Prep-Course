@@ -248,12 +248,14 @@ function breakStatement(numero) {
   //Pista: usá el statement 'break'
   // Tu código:
   var numerosIterados = [];
+
   for (var i = 0; i < 10; i++) {
-    if (numero === i) {
+    if (numero + 2 === i) {
       return "Se interrumpió la ejecución";
       break;
     }
-      numerosIterados.push(numero[i] + 2);
+      numerosIterados.push(numero);
+      numero = numero + 2;
   }
   return numerosIterados;
 }
@@ -268,7 +270,7 @@ function continueStatement(numero) {
   // Tu código:
   var numerosIterados = [];
 
-  for (var i = 0; i <= 10; i++) {
+  for (var i = 0; i < 10; i++) {
     if (i === 5) {
       continue;
     }
