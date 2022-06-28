@@ -269,7 +269,7 @@ function continueStatement(numero) {
   var numerosIterados = [];
 
   for (var i = 0; i < 10; i++) {
-    if (i === 5) {
+    if (i === 4) {
       continue;
     }
       numerosIterados.push(numero);
