@@ -194,7 +194,7 @@ function todosIguales(arreglo) {
   //Escribe tu código aquí
   var sonIguales = arreglo[0];
 
-  for (var i = 0; i < arreglo.length = i++) {
+  for (var i = 0; i < arreglo.length; i++) {
     if (sonIguales !== arreglo[i]) {
       return false;
     }
