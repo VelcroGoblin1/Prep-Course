@@ -249,13 +249,14 @@ function breakStatement(numero) {
   // Tu código:
   var numerosIterados = [];
 
-  for (var i = 0; i < 11; i++) {
+  for (var i = 0; i < 10; i++) {
     if (numero + 2 === i) {
       return "Se interrumpió la ejecución";
       break;
     }
-      numerosIterados.push(numero);
       numero = numero + 2;
+      numerosIterados.push(numero);
+      
   }
   return numerosIterados;
 }
