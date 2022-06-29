@@ -275,8 +275,9 @@ function continueStatement(numero) {
     if (i === 5) {
       continue;
     }
-      numerosIterados.push(numero);
       numero = numero + 2;
+      numerosIterados.push(numero);
+      
   }
   return numerosIterados;
 }
