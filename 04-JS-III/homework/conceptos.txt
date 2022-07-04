@@ -1,0 +1,2 @@
+ARRAYS - Los arrays son una especie de fichero en el que se pueden guardar datos de muchos tipos (strings, numeros, booleanos, funciones, null, undefined). Estos datos se guardan entre corchetes, y se pueden ver en cualquier momento buscándolos con el número que tienen asignado por su orden adentro del array. El primer dato tiene orden o índice 0, el segundo, 1, el tercero, 2, y así sucesivamente. Un array tiene esta estructura:     var array = [dato 1, dato 2, dato 3, dato 4];
+Los datos se separan con comas adentro del array.
