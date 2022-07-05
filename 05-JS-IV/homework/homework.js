@@ -66,7 +66,7 @@ function tieneEmail (usuario) {
   // Devuelve "true" si el usuario tiene un valor definido para la propiedad "email"
   // De lo contratio, devuelve "false"
   // Tu código:
-  if (usuario[email] !== undefined) {
+  if (usuario["email"] !== undefined) {
     return true;
   } else {
     return false;
@@ -79,7 +79,7 @@ function tienePropiedad (objeto, propiedad) {
   // De lo contrario, devuelve "false"
   // Tu código:
   for(var proper in objeto) {
-    if(objeto[proper] === propiedad) {
+    if(proper === propiedad) {
       return true;
     } else {
       return false;
