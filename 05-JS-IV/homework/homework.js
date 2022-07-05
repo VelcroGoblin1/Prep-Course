@@ -24,7 +24,7 @@ function agregarPropiedad (objeto, property) {
   var objeto = {
   }
 
-  objeto.property = null;
+  objeto[property] = null;
   return objeto;
 }
 
